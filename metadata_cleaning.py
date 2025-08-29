@@ -1,6 +1,6 @@
 import nbformat
 
-nb_path = 'nb/Orpheus_(3B)_TTS.ipynb'
+nb_path = 'nb/Sesame_CSM_(1B)_TTS.ipynb'
 
 with open(nb_path, 'r', encoding='utf-8') as f:
     nb = nbformat.read(f, as_version=4)
