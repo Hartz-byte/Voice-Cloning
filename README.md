@@ -82,15 +82,14 @@ Use the provided inference cells to generate speech from text using your trained
 ## 📁 Project Structure
 ```
 voice-cloning/
-├── nb/                          # Jupyter notebooks
+├── nb/                          # Collab/Jupyter notebooks
 │   ├── Sesame_CSM_(1B)_TTS.ipynb
 │   └── Orpheus_(3B)_TTS.ipynb
 ├── outputs/                     # Generated audio samples
 │   └── Sesame_CSM_(1B)_TTS/
 │       ├── original.wav
 │       └── cloned.wav
-├── scripts/                    # Utility scripts
-│   └── metadata_cleaning.py
+├── metadata_cleaning.py
 ├── .gitignore
 └── README.md
 ```
